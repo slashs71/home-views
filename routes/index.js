@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express MSV' });
+  res.render('index', { title: 'Express MSV 2019' });
 });
 
 module.exports = router;
